@@ -53,7 +53,7 @@ export const LoginForm = () => {
                 // handleError
                 return;
             }
-            router.push("/dashboard/services")
+            router.push("/dashboard/vehicles")
         } catch (error) {
             console.log(error);
         }
