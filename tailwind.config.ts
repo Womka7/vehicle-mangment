@@ -14,6 +14,8 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@iconify/tailwind'),
+  ],
 };
 export default config;
