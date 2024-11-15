@@ -83,12 +83,14 @@ export const LoginForm = () => {
                 placeholder="Ingresa Tu Contraseña"
             />
             <Button
-                type="submit"
-                className="w-full px-4 py-2 text-white font-medium rounded-lg bg-[#7692ff] hover:bg-gray-900"
-            >Iniciar Sesión</Button>
+      type="submit"
+      className="w-full px-4 py-2 text-white font-medium rounded-lg bg-[#7692ff] hover:bg-gray-900 flex items-center justify-center space-x-2"   >
+      <Icon icon="uil:padlock" className="text-[#FFFFFF] mr-4" style={{ fontSize: '1.2em' }} />
+      Iniciar Sesión
+    </Button>
             <div className="flex flex-col items-center space-y-2 text-[#2F2B3D] justify-center text-sm">
-                    <p className="pr-2 text-center">¿Problemas para iniciar sesión? Contacta al
-                        administrador del sistema</p>{" "}
+                <p className="pr-2 text-center">¿Problemas para iniciar sesión? Contacta al
+                    administrador del sistema</p>{" "}
             </div>
         </form>
     )
